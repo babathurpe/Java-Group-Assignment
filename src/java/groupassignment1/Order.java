@@ -64,6 +64,10 @@ public class Order {
     public List<Purchase> getPurchaseList() {
         return purchaseList;
     }
+    
+    public void addPurchase(Purchase p) {
+        purchaseList.add(p);
+    }
 
     public void setPurchaseList(List<Purchase> purchaseList) {
         this.purchaseList = purchaseList;
